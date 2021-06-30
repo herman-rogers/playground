@@ -2,13 +2,16 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "",
-  "main": "deduplicate-array.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "compile": "tsc *"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.0.5"
+  },
+  "dependencies": {
+    "typescript": "^4.3.4"
   }
 }
